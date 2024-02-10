@@ -1774,7 +1774,7 @@
     (property "Manufacturer" "Generic" (at 80.01 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 1K 0402 Resistor" (at 80.01 62.23 0)
+    (property "Part #" "Generic 1 0402 Resistor" (at 80.01 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0ff7d972-608a-4cd2-aa36-c47cc8b9d999))
