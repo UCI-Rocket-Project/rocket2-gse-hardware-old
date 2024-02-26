@@ -859,22 +859,22 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
-          (reference "C34") (unit 1)
+          (reference "C35") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
-          (reference "C28") (unit 1)
+          (reference "C29") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
-          (reference "C24") (unit 1)
+          (reference "C25") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
-          (reference "C30") (unit 1)
+          (reference "C31") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
-          (reference "C32") (unit 1)
+          (reference "C33") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
-          (reference "C26") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1046,22 +1046,22 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
-          (reference "C35") (unit 1)
+          (reference "C34") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
-          (reference "C29") (unit 1)
+          (reference "C28") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
-          (reference "C25") (unit 1)
+          (reference "C24") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
-          (reference "C31") (unit 1)
+          (reference "C30") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
-          (reference "C33") (unit 1)
+          (reference "C32") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
-          (reference "C27") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )

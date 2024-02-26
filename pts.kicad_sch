@@ -700,19 +700,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "R38") (unit 1)
+          (reference "R44") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "R41") (unit 1)
+          (reference "R47") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "R32") (unit 1)
+          (reference "R38") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "R35") (unit 1)
+          (reference "R41") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "R29") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -831,19 +831,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "R39") (unit 1)
+          (reference "R45") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "R42") (unit 1)
+          (reference "R48") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "R33") (unit 1)
+          (reference "R39") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "R36") (unit 1)
+          (reference "R42") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "R30") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -900,19 +900,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "C22") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "C23") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "C20") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
           (reference "C21") (unit 1)
         )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
+          (reference "C22") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
           (reference "C19") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
+          (reference "C20") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1345,19 +1345,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "U14") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "U15") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "U12") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
           (reference "U13") (unit 1)
         )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
+          (reference "U14") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
           (reference "U11") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
+          (reference "U12") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -1471,19 +1471,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "D25") (unit 1)
+          (reference "D21") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "D26") (unit 1)
+          (reference "D22") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "D24") (unit 1)
+          (reference "D19") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "D23") (unit 1)
+          (reference "D20") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "D19") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -1540,19 +1540,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "R40") (unit 1)
+          (reference "R46") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "R43") (unit 1)
+          (reference "R49") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "R34") (unit 1)
+          (reference "R40") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "R37") (unit 1)
+          (reference "R43") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "R31") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
