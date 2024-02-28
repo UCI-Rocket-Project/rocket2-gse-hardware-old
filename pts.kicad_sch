@@ -561,19 +561,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -594,10 +594,10 @@
     (property "Datasheet" "~" (at 71.12 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Generic" (at 71.12 54.61 0)
+    (property "Manufacturer" "~" (at 71.12 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 3x5.08 Screw Terminal" (at 71.12 54.61 0)
+    (property "Part #" "~" (at 71.12 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c4a57225-41ca-4189-9a06-b92ee94fe4e8))
@@ -631,19 +631,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "PT2") (unit 1)
+          (reference "PT4") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "PT3") (unit 1)
+          (reference "PT5") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "PT0") (unit 1)
+          (reference "PT3") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "PT1") (unit 1)
+          (reference "PT2") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "PT4") (unit 1)
+          (reference "PT1") (unit 1)
         )
       )
     )
@@ -667,7 +667,7 @@
     (property "Manufacturer" "Generic" (at 81.28 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 1K 0402 Resistor" (at 81.28 54.61 0)
+    (property "Part #" "Generic 1K 1% 0402 Resistor" (at 81.28 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 71d72228-cb7b-403f-948e-9f91ddc196be))
@@ -700,19 +700,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "R44") (unit 1)
+          (reference "R63") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "R47") (unit 1)
+          (reference "R66") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "R38") (unit 1)
+          (reference "R60") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "R41") (unit 1)
+          (reference "R57") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "R50") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -762,19 +762,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -798,7 +798,7 @@
     (property "Manufacturer" "Generic" (at 120.65 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 4.7K 0402 Resistor" (at 120.65 60.96 0)
+    (property "Part #" "Generic 4.7K 1% 0402 Resistor" (at 120.65 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 305f1699-e631-4359-91b8-116b07bcff25))
@@ -831,19 +831,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "R45") (unit 1)
+          (reference "R64") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "R48") (unit 1)
+          (reference "R67") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "R39") (unit 1)
+          (reference "R61") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "R42") (unit 1)
+          (reference "R58") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "R51") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -900,19 +900,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "C21") (unit 1)
+          (reference "C27") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "C22") (unit 1)
+          (reference "C28") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "C19") (unit 1)
+          (reference "C26") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "C20") (unit 1)
+          (reference "C25") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "C23") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -962,19 +962,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -1024,19 +1024,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0194") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
@@ -1086,19 +1086,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -1148,19 +1148,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0191") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -1210,19 +1210,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0187") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -1272,19 +1272,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0192") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -1345,19 +1345,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "U13") (unit 1)
+          (reference "U17") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "U14") (unit 1)
+          (reference "U18") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "U11") (unit 1)
+          (reference "U16") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "U12") (unit 1)
+          (reference "U15") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "U15") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -1407,19 +1407,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0193") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -1471,19 +1471,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "D21") (unit 1)
+          (reference "D34") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "D22") (unit 1)
+          (reference "D35") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "D19") (unit 1)
+          (reference "D33") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "D20") (unit 1)
+          (reference "D32") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "D23") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -1495,7 +1495,7 @@
     (property "Reference" "R12" (at 123.19 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7K" (at 123.19 72.39 0)
+    (property "Value" "10K" (at 123.19 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 120.65 71.12 0)
@@ -1507,7 +1507,7 @@
     (property "Manufacturer" "Generic" (at 120.65 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 4.7K 0402 Resistor" (at 120.65 71.12 0)
+    (property "Part #" "Generic 10K 1% 0402 Resistor" (at 120.65 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 58d08258-1286-4c90-9d5a-074f8857bb22))
@@ -1540,19 +1540,19 @@
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7a33cdec-d03b-4deb-b0bf-2d031c837fe2"
-          (reference "R46") (unit 1)
+          (reference "R65") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/57271c70-34fa-4463-8e0b-eb5866a931ce"
-          (reference "R49") (unit 1)
+          (reference "R68") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a320b695-1c33-4809-a924-50af1a6ee7cd"
-          (reference "R40") (unit 1)
+          (reference "R62") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/77d1df27-0ae3-43ce-9677-f322913af211"
-          (reference "R43") (unit 1)
+          (reference "R59") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6adea118-0fde-4fda-86a7-925f23268e32"
-          (reference "R52") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
