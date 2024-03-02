@@ -489,7 +489,7 @@
   (symbol (lib_id "power:GND") (at 168.91 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01facd9c-425a-4711-867d-0666c69ff676)
-    (property "Reference" "#PWR036" (at 168.91 73.025 0)
+    (property "Reference" "#PWR?" (at 168.91 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 71.12 0)
@@ -505,42 +505,42 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "#PWR0186") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
-          (reference "#PWR0238") (unit 1)
+          (reference "#PWR0240") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
-          (reference "#PWR0226") (unit 1)
+          (reference "#PWR0228") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
-          (reference "#PWR0230") (unit 1)
+          (reference "#PWR0232") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
-          (reference "#PWR0234") (unit 1)
+          (reference "#PWR0236") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -549,7 +549,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:MAX31855") (at 160.655 80.01 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1678fc26-8a8e-4cdc-b05c-3f35275bc8b0)
-    (property "Reference" "U4" (at 165.735 87.63 0)
+    (property "Reference" "U?" (at 165.735 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 160.655 77.47 0)
@@ -578,22 +578,22 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "U4") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "U17") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
@@ -622,7 +622,7 @@
   (symbol (lib_id "power:GND") (at 150.495 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3333d1cc-5a08-49fc-83b2-1e1d390791f9)
-    (property "Reference" "#PWR022" (at 150.495 90.17 0)
+    (property "Reference" "#PWR?" (at 150.495 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 150.495 88.265 0)
@@ -638,42 +638,42 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "#PWR0184") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
-          (reference "#PWR0236") (unit 1)
+          (reference "#PWR0238") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
-          (reference "#PWR0224") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
-          (reference "#PWR0228") (unit 1)
+          (reference "#PWR0230") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
-          (reference "#PWR0232") (unit 1)
+          (reference "#PWR0234") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
-          (reference "#PWR0216") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -682,7 +682,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:FerriteBead_Small") (at 118.11 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4cc38bbc-2d2b-4e5a-932d-9de41a84a2b8)
-    (property "Reference" "FB1" (at 118.0719 66.04 90)
+    (property "Reference" "FB?" (at 118.0719 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohms @ 100 MHz" (at 118.0719 68.58 90)
@@ -705,22 +705,22 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "FB1") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "FB1") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "FB1") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "FB1") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
@@ -749,7 +749,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:FerriteBead_Small") (at 118.11 89.535 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d602c8f-f1e7-43f6-a3c6-9806b52cb29b)
-    (property "Reference" "FB2" (at 118.11 92.71 90)
+    (property "Reference" "FB?" (at 118.11 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohms @ 100 MHz" (at 118.11 95.25 90)
@@ -772,22 +772,22 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "FB2") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "FB2") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "FB2") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "FB2") (unit 1)
+          (reference "FB?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
@@ -816,7 +816,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:C_Small") (at 168.91 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99080b56-b5be-45b4-bbc7-80b648ee5640)
-    (property "Reference" "C21" (at 171.45 63.5063 0)
+    (property "Reference" "C?" (at 171.45 63.5063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 171.45 66.0463 0)
@@ -839,22 +839,22 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "C21") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "C25") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
@@ -883,7 +883,7 @@
   (symbol (lib_id "power:+3.3V") (at 168.91 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a17e8fe0-38d7-42c0-b9f5-f6f971ef2047)
-    (property "Reference" "#PWR035" (at 168.91 65.405 0)
+    (property "Reference" "#PWR?" (at 168.91 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 168.91 57.785 0)
@@ -899,22 +899,82 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "#PWR0185") (unit 1)
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "rocket2-gse-hardware"
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
+          (reference "#PWR0239") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
+          (reference "#PWR0227") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "#PWR0223") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
+          (reference "#PWR0231") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
+          (reference "#PWR0235") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
+          (reference "#PWR0219") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 150.495 76.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a344c237-5b4e-4487-be2a-619de722c883)
+    (property "Reference" "#PWR?" (at 150.495 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 150.495 73.025 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 150.495 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 150.495 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 630d42f9-2576-43e8-981c-1837976c2fce))
+    (instances
+      (project "ECU_2.0_Proto1"
+        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "TC_readings"
+        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "TC_reading_2"
+        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "rocket2-gse"
+        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
@@ -940,70 +1000,10 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 150.495 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a344c237-5b4e-4487-be2a-619de722c883)
-    (property "Reference" "#PWR021" (at 150.495 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 150.495 73.025 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 150.495 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 150.495 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 630d42f9-2576-43e8-981c-1837976c2fce))
-    (instances
-      (project "ECU_2.0_Proto1"
-        (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-      (project "TC_readings"
-        (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "TC_reading_2"
-        (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "rocket2-gse"
-        (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "#PWR0183") (unit 1)
-        )
-      )
-      (project "rocket2-gse-hardware"
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
-          (reference "#PWR0235") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
-          (reference "#PWR0223") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
-          (reference "#PWR0219") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
-          (reference "#PWR0227") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
-          (reference "#PWR0231") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
-          (reference "#PWR0215") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "UCIRP-KiCAD-Lib:C_Small") (at 138.43 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e90b8db5-840a-44d0-8d55-7fff77d6e5d0)
-    (property "Reference" "C20" (at 140.97 79.3813 0)
+    (property "Reference" "C?" (at 140.97 79.3813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 140.97 81.9213 0)
@@ -1026,22 +1026,22 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "C20") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "TC_reading_2"
         (path "/af2338e9-e09a-4a55-a9a1-2f1efd89145f"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
@@ -1070,7 +1070,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:Thermocouple") (at 104.14 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e97de16b-5687-4814-9b2f-94145ec10f66)
-    (property "Reference" "TC2" (at 104.14 71.755 0)
+    (property "Reference" "TC?" (at 104.14 71.755 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Thermocouple" (at 99.695 74.295 0)
@@ -1093,39 +1093,39 @@
     (instances
       (project "ECU_2.0_Proto1"
         (path "/06e39eae-ccca-47c1-9146-3af0bb877e60"
-          (reference "TC2") (unit 1)
+          (reference "TC?") (unit 1)
         )
       )
       (project "TC_readings"
         (path "/4e2048f0-e02d-4f9b-bba0-dfeebe43f4af"
-          (reference "TC3") (unit 1)
+          (reference "TC?") (unit 1)
         )
       )
       (project "rocket2-gse"
         (path "/b7c1f72e-c0e1-45f4-a0c9-c80e8a0d5f55"
-          (reference "TC1") (unit 1)
+          (reference "TC?") (unit 1)
         )
       )
       (project "TC_reading_1"
         (path "/b981cf81-8554-45c0-a00f-7680f1fa68dd"
-          (reference "TC1") (unit 1)
+          (reference "TC?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/9bfc3470-4af6-46f6-acbb-21e8d300e187"
-          (reference "TC6") (unit 1)
+          (reference "TC5") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/f72790a8-78c9-419b-8c68-ebc7218312f5"
-          (reference "TC3") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
           (reference "TC2") (unit 1)
         )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/a2ab425d-6480-41eb-a8f0-de8cfd1045eb"
+          (reference "TC0") (unit 1)
+        )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e1e6b308-ee58-4d21-8c1c-f61b5a4bea2a"
-          (reference "TC4") (unit 1)
+          (reference "TC3") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/d4993af7-d6f7-454c-b0a9-d34995f1f991"
-          (reference "TC5") (unit 1)
+          (reference "TC4") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/6167aa15-868e-4467-9e6a-9a9cb675929f"
           (reference "TC1") (unit 1)

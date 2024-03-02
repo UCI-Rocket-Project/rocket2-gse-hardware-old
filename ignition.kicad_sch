@@ -413,23 +413,20 @@
   (junction (at 111.76 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 5be0bcb0-fed4-463d-9625-2557a367c8b8)
   )
-  (junction (at 133.35 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid 5eab534e-4f6f-4d87-82c9-59b6c740d495)
-  )
   (junction (at 133.35 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 69f51664-56de-4159-9059-589d951a881f)
   )
   (junction (at 133.35 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 6daa16e7-667c-4f58-b491-38293e65fe5d)
   )
-  (junction (at 99.06 82.55) (diameter 0) (color 0 0 0 0)
+  (junction (at 93.98 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 9674e5ea-cfa9-4437-810e-9bc0537b9f82)
   )
   (junction (at 147.32 100.33) (diameter 0) (color 0 0 0 0)
     (uuid a1a709c9-d360-4782-a82e-860e08903a1a)
   )
 
-  (wire (pts (xy 99.06 82.55) (xy 99.06 85.09))
+  (wire (pts (xy 93.98 82.55) (xy 93.98 85.09))
     (stroke (width 0) (type default))
     (uuid 15f6d72b-99f2-491c-af4b-009c083a4129)
   )
@@ -445,7 +442,7 @@
     (stroke (width 0) (type default))
     (uuid 32c6f537-e016-4883-ab1c-95c387d3f433)
   )
-  (wire (pts (xy 133.35 80.01) (xy 133.35 90.17))
+  (wire (pts (xy 133.35 78.74) (xy 133.35 90.17))
     (stroke (width 0) (type default))
     (uuid 38708776-6e5d-4be5-9e25-c8144d428e60)
   )
@@ -465,7 +462,7 @@
     (stroke (width 0) (type default))
     (uuid 78a0dc3e-3795-448a-ad2e-81c0edaf5720)
   )
-  (wire (pts (xy 99.06 80.01) (xy 99.06 82.55))
+  (wire (pts (xy 93.98 80.01) (xy 93.98 82.55))
     (stroke (width 0) (type default))
     (uuid 7bf73d96-13d4-4c0b-bfd4-c1790f6ac53b)
   )
@@ -481,23 +478,15 @@
     (stroke (width 0) (type default))
     (uuid ba224087-49f7-4b11-9c70-af81e968eea4)
   )
-  (wire (pts (xy 132.08 80.01) (xy 133.35 80.01))
-    (stroke (width 0) (type default))
-    (uuid bb47a432-d095-44f1-8b82-6c37b00b148c)
-  )
-  (wire (pts (xy 96.52 82.55) (xy 99.06 82.55))
+  (wire (pts (xy 91.44 82.55) (xy 93.98 82.55))
     (stroke (width 0) (type default))
     (uuid c02aa9f1-53d3-409a-a997-595d7d4cf13b)
-  )
-  (wire (pts (xy 133.35 78.74) (xy 133.35 80.01))
-    (stroke (width 0) (type default))
-    (uuid c310eaa7-03be-4956-8f58-3db2e8bd602a)
   )
   (wire (pts (xy 133.35 90.17) (xy 133.35 95.25))
     (stroke (width 0) (type default))
     (uuid dd28c031-b6d5-474d-834c-781f0475369b)
   )
-  (wire (pts (xy 106.68 90.17) (xy 111.76 90.17))
+  (wire (pts (xy 101.6 90.17) (xy 111.76 90.17))
     (stroke (width 0) (type default))
     (uuid e9e65a0d-d869-4ea3-a223-1a633ddf3e16)
   )
@@ -510,7 +499,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a300164c-c263-48f4-8f69-9a43e1d9edac)
   )
-  (hierarchical_label "IGNITION_CONT" (shape output) (at 96.52 82.55 180) (fields_autoplaced)
+  (hierarchical_label "IGNITION_CONT" (shape output) (at 91.44 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ad18b91f-61c9-49b4-8982-3a35629fe442)
   )
@@ -518,7 +507,7 @@
   (symbol (lib_id "Device:C_Small") (at 129.54 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 021ccc9b-336a-457a-9cc8-94268bf8c9b1)
-    (property "Reference" "C8" (at 129.54 67.31 90)
+    (property "Reference" "C?" (at 129.54 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 129.54 69.215 90)
@@ -541,17 +530,17 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "C42") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "C42") (unit 1)
@@ -566,7 +555,7 @@
   (symbol (lib_id "power:GND") (at 111.76 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11261461-61b0-4edf-ad24-ffa3bca30610)
-    (property "Reference" "#PWR027" (at 111.76 109.22 0)
+    (property "Reference" "#PWR?" (at 111.76 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 106.68 0)
@@ -582,23 +571,23 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "#PWR0245") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "#PWR0248") (unit 1)
+          (reference "#PWR0249") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "#PWR0241") (unit 1)
+          (reference "#PWR0243") (unit 1)
         )
       )
     )
@@ -607,7 +596,7 @@
   (symbol (lib_id "power:GND") (at 127 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 241658e0-5bb8-42b0-9109-1cae4e2317e1)
-    (property "Reference" "#PWR021" (at 120.65 72.39 0)
+    (property "Reference" "#PWR?" (at 120.65 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 74.93 90)
@@ -623,23 +612,23 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "#PWR0243") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "#PWR0249") (unit 1)
+          (reference "#PWR0250") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "#PWR0242") (unit 1)
+          (reference "#PWR0244") (unit 1)
         )
       )
     )
@@ -648,10 +637,10 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 135.89 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e99dd7d-25c7-4a10-b975-2e3897f86da2)
-    (property "Reference" "Q2" (at 127 99.06 0)
+    (property "Reference" "Q?" (at 127 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "~" (at 118.364 101.6 0)
+    (property "Value" "30V 4A" (at 118.364 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 130.81 97.79 0)
@@ -672,17 +661,17 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "Q2") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "Q2") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "Q14") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "Q14") (unit 1)
@@ -694,51 +683,10 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 127 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4196d6c9-e9dd-4abb-9210-ef882f95f8d0)
-    (property "Reference" "#PWR022" (at 120.65 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 124.46 82.55 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d7de462c-d681-45e1-88d2-be395fb891a6))
-    (instances
-      (project "rocket2-afs"
-        (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "AFS2.1_Betelgeuse"
-        (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "rocket2-gse-hardware"
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "#PWR0244") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "#PWR0250") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "#PWR0243") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 147.32 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b7b6f1d-150e-4f7f-a67f-a37ea163bcf0)
-    (property "Reference" "#PWR028" (at 147.32 113.03 0)
+    (property "Reference" "#PWR?" (at 147.32 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 110.49 0)
@@ -754,64 +702,64 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "#PWR0246") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "#PWR0252") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "#PWR0245") (unit 1)
+          (reference "#PWR0246") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 99.06 95.25 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 93.98 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53718180-8800-49b9-976e-4991061f3b6f)
-    (property "Reference" "#PWR020" (at 99.06 101.6 0)
+    (property "Reference" "#PWR?" (at 93.98 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 99.06 99.06 0)
+    (property "Value" "GND" (at 93.98 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 99.06 95.25 0)
+    (property "Footprint" "" (at 93.98 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 99.06 95.25 0)
+    (property "Datasheet" "" (at 93.98 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1de6aeb8-0458-4e28-9799-5ce27c526d77))
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "#PWR0242") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "#PWR0247") (unit 1)
+          (reference "#PWR0248") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "#PWR0240") (unit 1)
+          (reference "#PWR0242") (unit 1)
         )
       )
     )
@@ -820,7 +768,7 @@
   (symbol (lib_id "power:GND") (at 133.35 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60cc09d1-4fc2-45df-929a-ffef340a18a0)
-    (property "Reference" "#PWR027" (at 133.35 111.76 0)
+    (property "Reference" "#PWR?" (at 133.35 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 109.22 0)
@@ -836,66 +784,66 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "#PWR0245") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "#PWR0251") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "#PWR0244") (unit 1)
+          (reference "#PWR0245") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:Q_NMOS_GSD") (at 101.6 90.17 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 96.52 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a5f17d9-701b-4307-bcc0-c720b9c62178)
-    (property "Reference" "Q1" (at 96.52 88.9 0)
+    (property "Reference" "Q?" (at 91.44 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (at 96.52 91.44 0)
+    (property "Value" "30V 4A" (at 91.44 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 96.52 87.63 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 91.44 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG3402L.pdf" (at 101.6 90.17 0)
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG3402L.pdf" (at 96.52 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Diodes" (at 101.6 90.17 0)
+    (property "Manufacturer" "Diodes" (at 96.52 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "DMG3402L" (at 101.6 90.17 0)
+    (property "Part #" "DMG3402L" (at 96.52 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7293ee1d-c067-4bc7-a64f-5d5d75df6a47))
-    (pin "2" (uuid 8db0f8f8-a42a-42a8-ac11-f4c96f4614aa))
-    (pin "3" (uuid 4cbb8019-fe75-4eb7-a7bf-a8345d5dc6db))
+    (pin "1" (uuid 4f323e48-0979-4606-b40c-991f4b929d0b))
+    (pin "2" (uuid ead5b982-e9c6-41d3-9d10-b528c18cba24))
+    (pin "3" (uuid 3aec3d90-6b3e-48d4-ae0e-caeff3483c06))
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "Q13") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "Q13") (unit 1)
@@ -907,25 +855,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 99.06 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small_US") (at 93.98 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7217ed96-5afe-4389-9ac0-7e1c464b9f14)
-    (property "Reference" "R3" (at 92.71 76.2 0)
+    (property "Reference" "R?" (at 87.63 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K" (at 92.71 78.74 0)
+    (property "Value" "10K" (at 87.63 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 99.06 77.47 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 93.98 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 77.47 0)
+    (property "Datasheet" "~" (at 93.98 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Generic" (at 99.06 77.47 0)
+    (property "Manufacturer" "Generic" (at 93.98 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 10K 1% 0402 Resistor" (at 99.06 77.47 0)
+    (property "Part #" "Generic 10K 1% 0402 Resistor" (at 93.98 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 68803bae-086a-422f-90e6-5ddbb6e4b307))
@@ -933,112 +881,64 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "R57") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "R75") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "R69") (unit 1)
+          (reference "R70") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 99.06 74.93 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 93.98 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83d4ed55-903a-40cf-92ac-5d5dac66d389)
-    (property "Reference" "#PWR019" (at 99.06 78.74 0)
+    (property "Reference" "#PWR?" (at 93.98 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 99.06 71.12 0)
+    (property "Value" "+3.3V" (at 93.98 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 99.06 74.93 0)
+    (property "Footprint" "" (at 93.98 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 99.06 74.93 0)
+    (property "Datasheet" "" (at 93.98 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 41b228d7-c9e6-44c0-9d39-d44b74190ac9))
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
+          (reference "#PWR0247") (unit 1)
+        )
+        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
           (reference "#PWR0241") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "#PWR0246") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "#PWR0239") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small_US") (at 129.54 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9f0c50fb-755d-4206-a13a-07c28d1ef8c4)
-    (property "Reference" "R4" (at 127 82.55 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10K" (at 127 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 129.54 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 129.54 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Generic" (at 129.54 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part #" "Generic 10K 1% 0402 Resistor" (at 129.54 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c386a00b-92d4-44df-a97a-502101145cf5))
-    (pin "2" (uuid 774a1417-ebaf-4d61-ad9b-16d6f7ba72d1))
-    (instances
-      (project "rocket2-afs"
-        (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "R4") (unit 1)
-        )
-      )
-      (project "AFS2.1_Betelgeuse"
-        (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "R2") (unit 1)
-        )
-      )
-      (project "rocket2-gse-hardware"
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "R58") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "R78") (unit 1)
-        )
-        (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "R72") (unit 1)
         )
       )
     )
@@ -1047,7 +947,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 138.43 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b633f53f-c316-480b-a1c4-dd15412f4dcd)
-    (property "Reference" "J3" (at 139.7 76.2 0)
+    (property "Reference" "J?" (at 139.7 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "E-MATCH" (at 139.7 78.74 0)
@@ -1070,17 +970,17 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "J2") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "J7") (unit 1)
@@ -1095,7 +995,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 111.76 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b73f0642-0319-42c8-9fce-fc6578c05ccd)
-    (property "Reference" "R3" (at 105.41 99.06 0)
+    (property "Reference" "R?" (at 105.41 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 105.41 101.6 0)
@@ -1118,23 +1018,23 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "R57") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "R76") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "R70") (unit 1)
+          (reference "R71") (unit 1)
         )
       )
     )
@@ -1143,7 +1043,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 147.32 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b93ffe59-f93e-4c1f-9fc1-65d7bd5f450f)
-    (property "Reference" "R5" (at 148.59 103.505 0)
+    (property "Reference" "R?" (at 148.59 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 148.59 105.41 0)
@@ -1166,20 +1066,20 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "R59") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "R80") (unit 1)
+          (reference "R79") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
           (reference "R74") (unit 1)
@@ -1191,10 +1091,10 @@
   (symbol (lib_id "Device:R_Small_US") (at 118.11 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5868882-4144-41c3-9987-6175ac74a7c0)
-    (property "Reference" "R4" (at 115.57 92.71 90)
+    (property "Reference" "R?" (at 115.57 92.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K" (at 115.57 95.25 90)
+    (property "Value" "33K" (at 115.57 95.25 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 118.11 90.17 0)
@@ -1206,7 +1106,7 @@
     (property "Manufacturer" "Generic" (at 118.11 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 10K 1% 0402 Resistor" (at 118.11 90.17 0)
+    (property "Part #" "Generic 33K 1% 0402 Resistor" (at 118.11 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cad4579f-b6d2-4b1a-bf0d-b59c9ab895ed))
@@ -1214,23 +1114,23 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
           (reference "R77") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
-          (reference "R71") (unit 1)
+          (reference "R72") (unit 1)
         )
       )
     )
@@ -1239,7 +1139,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 142.875 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f48e4769-bc89-4a6b-b675-06ca006b78df)
-    (property "Reference" "R5" (at 144.78 98.425 90)
+    (property "Reference" "R?" (at 144.78 98.425 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 144.78 102.87 90)
@@ -1254,7 +1154,7 @@
     (property "Manufacturer" "Generic" (at 142.875 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part #" "Generic 100 1% 0402 Resistor" (at 142.875 100.33 0)
+    (property "Part #" "Generic 15K 1% 0402 Resistor" (at 142.875 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5e3d4eb8-ec15-420c-a573-6c4bba344025))
@@ -1262,20 +1162,20 @@
     (instances
       (project "rocket2-afs"
         (path "/bb02b74a-6e6c-4d52-9615-6a7971a5afcd"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "AFS2.1_Betelgeuse"
         (path "/be554a08-147d-45c0-b8f6-ea3dd923a785"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "rocket2-gse-hardware"
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23"
-          (reference "R71") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/7686bba7-de45-4066-b8a5-bf76a470d732"
-          (reference "R79") (unit 1)
+          (reference "R78") (unit 1)
         )
         (path "/e56639b7-946f-4734-baa9-c73427e1cb23/e8fe8a5d-7ab2-45b6-9914-3add179d9da4"
           (reference "R73") (unit 1)
